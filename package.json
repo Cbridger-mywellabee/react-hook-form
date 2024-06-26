@@ -25,6 +25,7 @@
     }
   },
   "scripts": {
+    "prepare": "pnpm build:modern",
     "clean": "rimraf dist",
     "prebuild": "pnpm clean",
     "build": "pnpm build:modern",
